@@ -1,3 +1,73 @@
-.body {
-	background-color: red;
+:root {
+	--primary-brand: #4D5AE5;
+	--dark: #2E2F42;
+	--success: #31D0AA;
+	--text: #434455; 
+	--subtle-Text: #8E8F99;
+	--accent: #E7E9FC;
+	--light: #F4F4FD;
+	--standatr-white: #FFFFFF;
+	--background-btn: #404BBF;
 }
+
+.body {
+	font-family: Roboto, sans-serif;
+	color: var(--text);
+}
+
+.logo {
+	width: 71px;
+	height: 24px;
+	font-family: 'Raleway';
+	font- weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--dark);
+}
+
+.logo-web {
+	width: 44px;
+	height: 24px;
+	font-family: 'Raleway';
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--primary-brand);
+}
+
+
+.page-header a:hover,
+.page-header a:focus {
+	color: var(--primary-brand);
+}
+
+.page-header a {
+	color: var(--dark); 
+}
+
+.address a:focus,
+.address a:hover {
+	color: var(--primary-brand);
+}
+.address a {
+	color: var(--dark);
+}
+.button:hover,
+.button:focus {
+	color: var(--primary-brand);
+	background-color: var(--background-btn);
+	color: var(--standatr-white);
+}
+.button {
+	color: var(--dark);
+	cursor: pointer;
+}
+
+.work-examples a:hover,
+.work-examples a:focus {
+	color: var(--primary-brand);
+}
+
+.work-examples a {
+	color: var(--dark);
+}
+
