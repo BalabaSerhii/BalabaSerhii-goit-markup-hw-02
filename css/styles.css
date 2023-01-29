@@ -23,15 +23,23 @@
 	background-color: var(--dark);
 	color: var(--standatr-white);
 }
+
 .logo {
-	width: 71px;
-	height: 24px;
 	font-family: 'Raleway';
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
 	color: var(--dark);
 	text-decoration: none;
+}
+
+.logo-f {
+	font-family: 'Raleway';
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 1.33;
+		color: var(--light);
+		text-decoration: none;
 }
 
 .logo-web {
@@ -43,13 +51,12 @@
 	color: var(--primary-brand);
 }
 
-
-.page-header a:hover,
-.page-header a:focus {
+.page-header:hover,
+.page-header:focus {
 	color: var(--primary-brand);
 }
 
-.page-header a {
+.page-header {
 	color: var(--dark); 
 	font-weight: 500;
 	font-size: 16px;
@@ -58,11 +65,13 @@
 	text-decoration: none;
 }
 
-.address a:focus,
-.address a:hover {
+.contact:focus,
+.contact:hover {
 	color: var(--primary-brand);
 }
-.address a {
+
+.contact, 
+.contact{
 	color: var(--dark);
 	font-size: 16px;
 	line-height: 1.5;
@@ -72,13 +81,13 @@
 	text-decoration: none;
 }
 
-
 .button:hover,
 .button:focus {
 	color: var(--primary-brand);
 	background-color: var(--background-btn);
 	color: var(--standatr-white);
 }
+
 .button {
 	color: var(--dark);
 	background-color: var(--light);
@@ -90,24 +99,23 @@
 	border: 1px;
 }
 
-.work-examples a:hover,
-.work-examples a:focus {
-	color: var(--primary-brand);
+.examples-all {
+	list-style: none;
 }
 
-.work-examples a {
+.examples-img {
 	color: var(--dark);
-	text-decoration: none
+	text-decoration: none;
 }
 
-.work-examples h2 {
+.examples-h2 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
 
-.work-examples p {
+.examples-p {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -154,21 +162,21 @@
 	letter-spacing: 0.04em;
 	align-items: center;
 	border: 1px;
-		
-	
 }
 
 .list {
 	list-style: none;
+	text-decoration: none;
 }
 
-.benefits h3{
+.benefits-h3{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
-.benefits p {
+
+.benefits-p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -178,7 +186,6 @@
 .goust {
 opacity: 0;
 color: red;
-
 }
 
 .header-text {
@@ -190,17 +197,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.header-img {
-	background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
-	background-blend-mode: soft-light, normal;
-	border: 1px solid var(--accent);
-}
-
-.team-background {
-	background-color: var(--light);
-	
-}
-
 .team {
 	font-weight: 700;
 	font-size: 36px;
@@ -209,20 +205,14 @@ text-transform: capitalize;
 	text-transform: capitalize;
 }
 
-.team-card {
-	background: var(--standatr-white);
-		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-		border-radius: 0px 0px 4px 4px;
-}
-
-.team-card h3 {
+.card-h3 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	}
 
-.team-card p {
+.card-p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -230,12 +220,6 @@ text-transform: capitalize;
 	color: #434455;
 }
 
-.color-futer {
+.footer {
 	background-color: var(--dark);
-	/* position: absolute;
-		width: 1440px;
-		height: 310px;
-		left: 0px;
-		top: 2280px; */
 }
-
