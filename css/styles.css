@@ -10,6 +10,11 @@
 	--background-btn: #404BBF;
 	--background-primery: #E5E5E5;
 	
+	}
+
+.img-doing {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .body {
@@ -17,12 +22,32 @@
 	color: var(--text);
 	background-color: var(--standatr-white);
 	
+	
+	}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1128px;
+	outline: 1px solid red;
+	padding-left: 12px;
+	padding-right: 12px;
+	
 }
 
-.hero-background {
-	background-color: var(--dark);
-	color: var(--standatr-white);
+
+.header {
+	background-color: #31D0AA;
 }
+
+
+.hero-background {
+		background-color: var(--dark);
+	color: var(--standatr-white);
+	text-align: center;
+	margin: 0;
+	/* margin-bottom: 120px; */
+	}
 
 .logo {
 	font-family: 'Raleway';
@@ -99,6 +124,19 @@
 	border: 1px;
 }
 
+
+.advantages {
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+img {
+	margin: 0;
+}
+
+
+
 .examples-all {
 	list-style: none;
 }
@@ -113,14 +151,19 @@
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-}
+	margin-bottom: 0;
+		margin-top: 0;
+	}
+
 
 .examples-p {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-}
-
+	margin-bottom: 0;
+		margin-top: 0;
+	}
+	
 .logo-footer {
 	background-color: var(--dark);
 	color: var(--light);
@@ -139,6 +182,7 @@
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
+	margin-top: 0;
 }
 
 .button-hero:hover,
@@ -162,11 +206,18 @@
 	letter-spacing: 0.04em;
 	align-items: center;
 	border: 1px;
+	padding: 16px 32px;
+	gap: 10px;
+	
+	border-radius: 4px;
 }
 
 .list {
 	list-style: none;
 	text-decoration: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
 }
 
 .benefits-h3{
@@ -174,6 +225,7 @@
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	margin-top: 0;
 }
 
 .benefits-p {
@@ -183,10 +235,25 @@
 	letter-spacing: 0.02em;
 }
 
-.goust {
-opacity: 0;
-color: red;
-}
+
+.goust:not(:focus):not(:active) {
+		position: absolute;
+
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+
+		white-space: nowrap;
+
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
+
+
+
 
 .header-text {
 font-weight: 700;
@@ -195,7 +262,11 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-top: 0;
+margin-bottom: 0;
 }
+
+
 
 .team {
 	font-weight: 700;
@@ -203,6 +274,7 @@ text-transform: capitalize;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+	
 }
 
 .card-h3 {
@@ -222,4 +294,5 @@ text-transform: capitalize;
 
 .footer {
 	background-color: var(--dark);
+	
 }
