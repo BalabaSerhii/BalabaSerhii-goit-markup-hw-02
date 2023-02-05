@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body class="body">
     <header>
-      <div class="container">
-        <nav class="navigation">
+      <!-- !!!!!!!!!!!!!!!!! header Тут какая то жопа в CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <div class="container header">
+        <nav class="navigation header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
-          <ul class="list">
+          <ul class="header list">
             <li><a href="./index.html" class="page-header">Studio</a></li>
             <li>
               <a href="./portfolio.html" class="page-header">Portfolio</a>
@@ -30,7 +38,7 @@
         </nav>
 
         <address>
-          <ul class="list">
+          <ul class="header list">
             <li>
               <a href="mailto:info@devstudio.com" class="contact list"
                 >info@devstudio.com</a
@@ -50,7 +58,7 @@
       <h1 class="goust">Work examples</h1>
 
       <div class="container">
-        <ul class="list">
+        <ul class="btn-nav list">
           <li><button class="button" type="button">All</button></li>
           <li><button class="button" type="button">Web Site</button></li>
           <li><button class="button" type="button">App</button></li>
@@ -58,8 +66,8 @@
           <li><button class="button" type="button">Marketing</button></li>
         </ul>
 
-        <ul class="list">
-          <li>
+        <ul class="work-examples list">
+          <div class="work-img"><li>
             <a href="" class="examples-img">
               <img
                 src="./images/111.jpg"
@@ -70,8 +78,9 @@
               <h2 class="examples-h2 list">Banking App Interface Concept</h2>
               <p class="examples-p">App</p></a
             >
+            </div>
           </li>
-          <li>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/222.jpg"
@@ -82,15 +91,15 @@
               <h2 class="examples-h2">Cashless Payment</h2>
               <p class="examples-p">Marketing</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img src="./images/333.jpg" alt="App" width="360" height="300" />
               <h2 class="examples-h2">Meditation App</h2>
               <p class="examples-p">App</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/444.jpg"
@@ -101,8 +110,8 @@
               <h2 class="examples-h2">Taxi Service</h2>
               <p class="examples-p">Marketing</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/555.jpg"
@@ -113,8 +122,8 @@
               <h2 class="examples-h2">Screen Illustrations</h2>
               <p class="examples-p">Design</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/666.jpg"
@@ -125,8 +134,8 @@
               <h2 class="examples-h2">Online Courses</h2>
               <p class="examples-p">Marketing</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/777.jpg"
@@ -137,8 +146,8 @@
               <h2 class="examples-h2">Instagram Stories Concept</h2>
               <p class="examples-p">Design</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/888.jpg"
@@ -149,8 +158,8 @@
               <h2 class="examples-h2">Organic Food</h2>
               <p class="examples-p">Web Site</p></a
             >
-          </li>
-          <li>
+          </li></div>
+          <div class="work-img"><li>
             <a href="" class="examples-img"
               ><img
                 src="./images/999.jpg"
@@ -161,13 +170,13 @@
               <h2 class="examples-h2">Fresh Coffee</h2>
               <p class="examples-p">Web Site</p></a
             >
-          </li>
+          </li></div>
         </ul>
       </div>
     </main>
 
     <footer class="footer list">
-      <div class="container">
+      <div class="container footer-end">
         <a href="./index.html" class="logo-f"
           ><span class="logo-web">WEB</span>STUDIO</a
         >

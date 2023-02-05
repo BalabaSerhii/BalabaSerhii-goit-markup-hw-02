@@ -11,17 +11,43 @@
 	--background-primery: #E5E5E5;
 	
 	}
+.list {
+	list-style: none;
+	text-decoration: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.links {
+	display: flex;
+	outline: 1px solid #2E2F42;
+}
+
+
+.foto li {
+	margin-right: 24px;
+}
+
 
 .img-doing {
 	padding-left: 0;
 	padding-right: 0;
+	margin-bottom: 120px;
+}
+
+.container.list {
+	display: flex;
+	
 }
 
 .body {
 	font-family: Roboto, sans-serif;
 	color: var(--text);
 	background-color: var(--standatr-white);
-	
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 	
 	}
 
@@ -29,24 +55,46 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 1128px;
-	outline: 1px solid red;
-	padding-left: 12px;
-	padding-right: 12px;
+	/* outline: 1px solid red; */
+	/* padding-left: 12px;
+	padding-right: 12px; */
+	/* padding-bottom: 120px; */
+	
+	
 	
 }
-
-
-.header {
-	background-color: #31D0AA;
+.flax-cont {
+	display: flex;
+	/* justify-content: flex-end; */
 }
 
 
+
+.positionn li {
+	align-items: end;
+}
+
+
+
+.flex {
+	display: flex;
+	
+	}
+.container li:not(:last-child) {
+	margin-right: 24px;
+}
+
 .hero-background {
-		background-color: var(--dark);
+/* !!!!!!!!!!Как по нормальному выставить размер фона?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+	background-color: var(--dark);
 	color: var(--standatr-white);
-	text-align: center;
 	margin: 0;
-	/* margin-bottom: 120px; */
+	margin-bottom: 120px;
+	text-align: center;
+	/* height: 600px; */
+	/* width: 1440px; */
+	
+	
 	}
 
 .logo {
@@ -56,7 +104,73 @@
 	line-height: 1.33;
 	color: var(--dark);
 	text-decoration: none;
+	margin-right: 76px;
+	/* !!!!!!!!!!!!Какие то костыли с маржином!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+	
+	
 }
+
+
+
+
+.btn-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 72px;
+	margin-top: 96px;
+}
+
+.work-examples {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 120px;
+	padding-bottom: 32px;
+	margin: -10px;
+}
+
+.work-img {
+	margin: 10px;
+	border: 1px solid #E7E9FC;
+}
+
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 72px;
+		
+}
+
+.container.header-text {
+	display: flex;
+
+}
+
+.header-textlist {
+	display: flex;
+	padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo-f {
 	font-family: 'Raleway';
@@ -81,14 +195,26 @@
 	color: var(--primary-brand);
 }
 
+
 .page-header {
 	color: var(--dark); 
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+	
+	
 	text-decoration: none;
-}
+	
+	}
+.links list:not(:last-child) {
+			margin-right: 40px;
+		}
+	
+
+.flax-cont {
+	display: flex;
+	
+	}
+
 
 .contact:focus,
 .contact:hover {
@@ -104,6 +230,7 @@
 	text-transform: inherit;
 	font-style: normal;
 	text-decoration: none;
+	display: flex;
 }
 
 .button:hover,
@@ -121,14 +248,24 @@
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	border: 1px;
+	border-radius: 4px;
+	padding: 12px 24px;
+	border: none;
 }
 
 
 .advantages {
 	margin-top: 0;
-	margin-bottom: 0;
-	
+	margin-bottom: 120px;
+	/* display: flex;
+	align-items: stretch;
+	 */
+	 
+
+}
+
+.advantages-text {
+	display: flex;
 }
 
 img {
@@ -144,6 +281,8 @@ img {
 .examples-img {
 	color: var(--dark);
 	text-decoration: none;
+	background: var(--standatr-white);
+	padding-bottom: 32px;
 }
 
 .examples-h2 {
@@ -152,16 +291,21 @@ img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-bottom: 0;
-		margin-top: 0;
+	margin-top: 0;
+	padding-top: 32px;
+	padding-left: 16px;
 	}
 
-
+/* !!!!!!!!!!!!!Тоже обратить внимание на маржины и падинги!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .examples-p {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	margin-bottom: 0;
-		margin-top: 0;
+	margin-top: 0;
+	padding-bottom: 32px;
+	padding-left: 16px;
+	
 	}
 	
 .logo-footer {
@@ -183,6 +327,9 @@ img {
 	text-align: center;
 	letter-spacing: 0.02em;
 	margin-top: 0;
+	margin-bottom: 48px;
+	padding-top: 188px;
+
 }
 
 .button-hero:hover,
@@ -200,25 +347,14 @@ img {
 	color: var(--standatr-white);
 	background-color: var(--primary-brand);
 	cursor: pointer;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	align-items: center;
-	border: 1px;
 	padding: 16px 32px;
-	gap: 10px;
-	
+	border: none;
 	border-radius: 4px;
+	margin-bottom: 188px;
+		
 }
 
-.list {
-	list-style: none;
-	text-decoration: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
-}
+
 
 .benefits-h3{
 	font-weight: 500;
@@ -263,25 +399,42 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 72px;
+padding-top: 120px;
 }
 
 
+.img-pipl {
+	background-color: var(--light);
+	text-align: center;
+}
 
 .team {
 	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.11;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
+		font-size: 36px;
+		line-height: 1.11;
+		align-items: center;
+		letter-spacing: 0.02em;
+		text-transform: capitalize;
+		margin-top: 0;
+		margin-bottom: 72px;
+	}
+
+.card {
 	
+	
+		background: #FFFFFF;
+		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+		border-radius: 0px 0px 4px 4px;
 }
+
 
 .card-h3 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	padding-top: 32px;
 	}
 
 .card-p {
@@ -290,9 +443,22 @@ margin-bottom: 0;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	padding-bottom: 32px;
+	padding-top: 8px;
 }
 
 .footer {
 	background-color: var(--dark);
-	
+	width: 1440px;
+		height: 310px;
+}
+
+
+
+.footer-end {
+	width: 264px;
+	display: inline-block;
+	margin-top: 100px;	
+	margin-left: 156px;
+	/* !!!!!!!!!Я не знаю как по другому выровнять правильно текст в футере!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }

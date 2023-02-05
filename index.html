@@ -9,28 +9,34 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header class="conteiner">
-      <nav class="nav-btn list">
-        <div class="container">
+    <header>
+      <!-- !!!!!!!!!!!!!!!!! header Тут какая то жопа в CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <div class="container header">
+        <nav class="navigation header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
-          <ul class="list">
+          <ul class="header list">
             <li><a href="./index.html" class="page-header">Studio</a></li>
             <li>
               <a href="./portfolio.html" class="page-header">Portfolio</a>
             </li>
             <li><a href="" class="page-header">Contacts</a></li>
           </ul>
-        </div>
-      </nav>
+        </nav>
 
-      <address>
-        <div class="container">
-          <ul class="list">
+        <address>
+          <ul class="header list">
             <li>
               <a href="mailto:info@devstudio.com" class="contact list"
                 >info@devstudio.com</a
@@ -42,8 +48,8 @@
               >
             </li>
           </ul>
-        </div>
-      </address>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -55,9 +61,9 @@
         <button type="button" class="button-order">Order Service</button>
       </section>
       <section class="advantages">
-        <div class="container">
+        <div class="container positionn">
           <h2 class="goust">zagolovok</h2>
-          <ul class="advantages list">
+          <ul class="advantages-text list">
             <li>
               <h3 class="benefits-h3 list">Strategy</h3>
               <p class="benefits-p list">
@@ -90,45 +96,49 @@
         </div>
       </section>
       <!-- 3 images -->
+
+      <!-- !!!!!!!!Правильно, что вынес h2 из флекса?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <h2 class="header-text">What are we doing</h2>
       <section class="img-doing">
+        <ul class="container list">
+          <li><img src="./images/1.jpg" alt="monoblock" width="360" /></li>
+          <li><img src="./images/2.jpg" alt="massendger" width="360" /></li>
+          <li><img src="./images/3.jpg" alt="smartfon" width="360" /></li>
+        </ul>
+      </section>
+
+      <section class="img-pipl">
+        <!-- !!!!Тут тоже не понятно правильно сделал позицианирование или нет!!! -->
+        <h2 class="header-text">Our Team</h2>
         <div class="container">
-          <h2 class="header-text">What are we doing</h2>
-          <ul class="list">
-            <li><img src="./images/1.jpg" alt="monoblock" width="360" /></li>
-            <li><img src="./images/2.jpg" alt="massendger" width="360" /></li>
-            <li><img src="./images/3.jpg" alt="smartfon" width="360" /></li>
+          <ul class="header-textlist list">
+            <li class="card">
+              <img src="./images/11.jpg" alt="Product Designer" width="264" />
+              <h3 class="card-h3 list">Mark Guerrero</h3>
+              <p class="card-p list">Product Designer</p>
+            </li>
+            <li class="card">
+              <img src="./images/22.jpg" alt="Product Designer" width="264" />
+              <h3 class="card-h3 list">Tom Ford</h3>
+              <p class="card-p list">Frontend Developer</p>
+            </li>
+            <li class="card">
+              <img src="./images/33.jpg" alt="Product Designer" width="264" />
+              <h3 class="card-h3 list">Camila Garcia</h3>
+              <p class="card-p list">Marketing</p>
+            </li>
+            <li class="card">
+              <img src="./images/44.jpg" alt="Product Designer" width="264" />
+              <h3 class="card-h3 list">Daniel Wilson</h3>
+              <p class="card-p list">UI Designer</p>
+            </li>
           </ul>
         </div>
       </section>
-      <div class="container">
-        <h2 class="team list">Our Team</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/11.jpg" alt="Product Designer" width="264" />
-            <h3 class="card-h3 list">Mark Guerrero</h3>
-            <p class="card-p list">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/22.jpg" alt="Product Designer" width="264" />
-            <h3 class="card-h3 list">Tom Ford</h3>
-            <p class="card-p list">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/33.jpg" alt="Product Designer" width="264" />
-            <h3 class="card-h3 list">Camila Garcia</h3>
-            <p class="card-p list">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/44.jpg" alt="Product Designer" width="264" />
-            <h3 class="card-h3 list">Daniel Wilson</h3>
-            <p class="card-p list">UI Designer</p>
-          </li>
-        </ul>
-      </div>
     </main>
 
     <footer class="footer list">
-      <div class="container">
+      <div class="container footer-end">
         <a href="./index.html" class="logo-f"
           ><span class="logo-web">WEB</span>STUDIO</a
         >
