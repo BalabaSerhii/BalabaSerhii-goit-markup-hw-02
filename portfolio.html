@@ -22,29 +22,32 @@
 
   <body class="body">
     <header>
-      <!-- !!!!!!!!!!!!!!!!! header Тут какая то жопа в CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
       <div class="container header">
-        <nav class="navigation header">
+        <nav class="navigation-header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
-          <ul class="header list">
-            <li><a href="./index.html" class="page-header">Studio</a></li>
-            <li>
+          <ul class="header-ul list">
+            <li class="header-li">
+              <a href="./index.html" class="page-header">Studio</a>
+            </li>
+            <li class="header-li">
               <a href="./portfolio.html" class="page-header">Portfolio</a>
             </li>
-            <li><a href="" class="page-header">Contacts</a></li>
+            <li class="header-li">
+              <a href="" class="page-header">Contacts</a>
+            </li>
           </ul>
         </nav>
 
-        <address>
-          <ul class="header list">
-            <li>
+        <address class="address">
+          <ul class="header-address list">
+            <li class="address-li">
               <a href="mailto:info@devstudio.com" class="contact list"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-li">
               <a href="tel:+110001111111" class="contact"
                 >+11 (000) 111-11-11</a
               >
@@ -59,28 +62,34 @@
 
       <div class="container">
         <ul class="btn-nav list">
-          <li><button class="button" type="button">All</button></li>
-          <li><button class="button" type="button">Web Site</button></li>
-          <li><button class="button" type="button">App</button></li>
-          <li><button class="button" type="button">Design</button></li>
-          <li><button class="button" type="button">Marketing</button></li>
+          <li><button class="button-nav" type="button">All</button></li>
+          <li><button class="button-nav" type="button">Web Site</button></li>
+          <li><button class="button-nav" type="button">App</button></li>
+          <li><button class="button-nav" type="button">Design</button></li>
+          <li><button class="button-nav" type="button">Marketing</button></li>
         </ul>
 
         <ul class="work-examples list">
-          <div class="work-img"><li>
-            <a href="" class="examples-img">
-              <img
-                src="./images/111.jpg"
-                alt="Marketing"
-                width="360"
-                height="300"
-              />
-              <h2 class="examples-h2 list">Banking App Interface Concept</h2>
-              <p class="examples-p">App</p></a
-            >
-            </div>
-          </li>
-          <div class="work-img"><li>
+          
+            <li class="work-li">
+              <a href="" class="examples-img">
+                <img
+                  src="./images/111.jpg"
+                  alt="Marketing"
+                  width="360"
+                  height="300"
+                />
+                <div class="examples-box">
+                  <h2 class="examples-h2 list">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="examples-p">App</p>
+                </div></a
+              >
+            </li>
+          
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/222.jpg"
@@ -88,18 +97,24 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Cashless Payment</h2>
-              <p class="examples-p">Marketing</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Cashless Payment</h2>
+                <p class="examples-p">Marketing</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img src="./images/333.jpg" alt="App" width="360" height="300" />
-              <h2 class="examples-h2">Meditation App</h2>
-              <p class="examples-p">App</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Meditation App</h2>
+                <p class="examples-p">App</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/444.jpg"
@@ -107,11 +122,14 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Taxi Service</h2>
-              <p class="examples-p">Marketing</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Taxi Service</h2>
+                <p class="examples-p">Marketing</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/555.jpg"
@@ -119,11 +137,14 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Screen Illustrations</h2>
-              <p class="examples-p">Design</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Screen Illustrations</h2>
+                <p class="examples-p">Design</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/666.jpg"
@@ -131,11 +152,14 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Online Courses</h2>
-              <p class="examples-p">Marketing</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Online Courses</h2>
+                <p class="examples-p">Marketing</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/777.jpg"
@@ -143,11 +167,14 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Instagram Stories Concept</h2>
-              <p class="examples-p">Design</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Instagram Stories Concept</h2>
+                <p class="examples-p">Design</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/888.jpg"
@@ -155,11 +182,14 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Organic Food</h2>
-              <p class="examples-p">Web Site</p></a
+              <div class="examples-box">
+                <h2 class="examples-h2">Organic Food</h2>
+                <p class="examples-p">Web Site</p>
+              </div></a
             >
-          </li></div>
-          <div class="work-img"><li>
+          </li>
+
+          <li class="work-li">
             <a href="" class="examples-img"
               ><img
                 src="./images/999.jpg"
@@ -167,16 +197,18 @@
                 width="360"
                 height="300"
               />
-              <h2 class="examples-h2">Fresh Coffee</h2>
-              <p class="examples-p">Web Site</p></a
-            >
-          </li></div>
+              <div class="examples-box">
+                <h2 class="examples-h2">Fresh Coffee</h2>
+                <p class="examples-p">Web Site</p>
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     </main>
 
     <footer class="footer list">
-      <div class="container footer-end">
+      <div class="footer-end">
         <a href="./index.html" class="logo-f"
           ><span class="logo-web">WEB</span>STUDIO</a
         >

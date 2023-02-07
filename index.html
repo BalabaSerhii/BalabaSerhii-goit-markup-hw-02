@@ -1,8 +1,8 @@
+<!-- .goust невидимый, но занимает место -->
 
-<!-- Просто горит пукан. 33 часа потратил на это. Помогите доделать с разъяснениями, пожалуйста -->
+<!-- В футере до сих пор не понятно по поводу текста. Правильно или нет-->
 
-
-
+<!-- Не разобрался как в примерах работ сделать цельную border в карточках -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,29 +26,32 @@
   </head>
   <body class="body">
     <header>
-      <!-- !!!!!!!!!!!!!!!!! header Тут какая то жопа в CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
       <div class="container header">
-        <nav class="navigation header">
+        <nav class="navigation-header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
-          <ul class="header list">
-            <li><a href="./index.html" class="page-header">Studio</a></li>
-            <li>
+          <ul class="header-ul list">
+            <li class="header-li">
+              <a href="./index.html" class="page-header">Studio</a>
+            </li>
+            <li class="header-li">
               <a href="./portfolio.html" class="page-header">Portfolio</a>
             </li>
-            <li><a href="" class="page-header">Contacts</a></li>
+            <li class="header-li">
+              <a href="" class="page-header">Contacts</a>
+            </li>
           </ul>
         </nav>
 
-        <address>
-          <ul class="header list">
-            <li>
+        <address class="address">
+          <ul class="header-address list">
+            <li class="address-li">
               <a href="mailto:info@devstudio.com" class="contact list"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-li">
               <a href="tel:+110001111111" class="contact"
                 >+11 (000) 111-11-11</a
               >
@@ -67,31 +70,31 @@
         <button type="button" class="button-order">Order Service</button>
       </section>
       <section class="advantages">
-        <div class="container positionn">
-          <h2 class="goust">zagolovok</h2>
+        <h2 class="goust">zagolovok</h2>
+        <div class="container-r positionn">
           <ul class="advantages-text list">
-            <li>
+            <li class="advantages-li">
               <h3 class="benefits-h3 list">Strategy</h3>
               <p class="benefits-p list">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="advantages-li">
               <h3 class="benefits-h3 list">Punctuality</h3>
               <p class="benefits-p list">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="advantages-li">
               <h3 class="benefits-h3 list">Diligence</h3>
               <p class="benefits-p list">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="advantages-li">
               <h3 class="benefits-h3 list">Technologies</h3>
               <p class="benefits-p list">
                 Design practice focused on digital experiences. We bring forth a
@@ -103,18 +106,22 @@
       </section>
       <!-- 3 images -->
 
-      <!-- !!!!!!!!Правильно, что вынес h2 из флекса?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
       <h2 class="header-text">What are we doing</h2>
       <section class="img-doing">
         <ul class="container list">
-          <li><img src="./images/1.jpg" alt="monoblock" width="360" /></li>
-          <li><img src="./images/2.jpg" alt="massendger" width="360" /></li>
-          <li><img src="./images/3.jpg" alt="smartfon" width="360" /></li>
+          <li class="doing-li">
+            <img src="./images/1.jpg" alt="monoblock" width="360" />
+          </li>
+          <li class="doing-li">
+            <img src="./images/2.jpg" alt="massendger" width="360" />
+          </li>
+          <li class="doing-li">
+            <img src="./images/3.jpg" alt="smartfon" width="360" />
+          </li>
         </ul>
       </section>
 
       <section class="img-pipl">
-        <!-- !!!!Тут тоже не понятно правильно сделал позицианирование или нет!!! -->
         <h2 class="header-text">Our Team</h2>
         <div class="container">
           <ul class="header-textlist list">
@@ -144,7 +151,7 @@
     </main>
 
     <footer class="footer list">
-      <div class="container footer-end">
+      <div class="footer-end">
         <a href="./index.html" class="logo-f"
           ><span class="logo-web">WEB</span>STUDIO</a
         >

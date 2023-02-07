@@ -11,6 +11,7 @@
 	--background-primery: #E5E5E5;
 	
 	}
+
 .list {
 	list-style: none;
 	text-decoration: none;
@@ -19,210 +20,35 @@
 	padding: 0;
 }
 
-.links {
-	display: flex;
-	outline: 1px solid #2E2F42;
-}
-
-
-.foto li {
-	margin-right: 24px;
-}
-
-
-.img-doing {
-	padding-left: 0;
-	padding-right: 0;
-	margin-bottom: 120px;
-}
-
-.container.list {
-	display: flex;
-	
-}
-
 .body {
 	font-family: Roboto, sans-serif;
 	color: var(--text);
 	background-color: var(--standatr-white);
-	width: 1440px;
-	margin-left: auto;
-	margin-right: auto;
-	
-	}
-
-.container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1158px;
-	/* outline: 1px solid red; */
-	/* padding-left: 12px;
-	padding-right: 12px; */
-	/* padding-bottom: 120px; */
-	
-	
-	
-}
-.flax-cont {
-	display: flex;
-	/* justify-content: flex-end; */
-}
-
-
-
-.positionn li {
-	align-items: end;
-}
-
-
-
-.flex {
-	display: flex;
-	
-	}
-.container li:not(:last-child) {
-	margin-right: 24px;
-}
-
-.hero-background {
-/* !!!!!!!!!!Как по нормальному выставить размер фона?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-	background-color: var(--dark);
-	color: var(--standatr-white);
-	margin: 0;
-	margin-bottom: 120px;
-	text-align: center;
-	/* height: 600px; */
 	/* width: 1440px; */
-	
-	
-	}
-
-.logo {
-	font-family: 'Raleway';
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.33;
-	color: var(--dark);
-	text-decoration: none;
-	margin-right: 76px;
-	/* !!!!!!!!!!!!Какие то костыли с маржином!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-	
-	
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: 0;
 }
 
-
-
-
-.btn-nav {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 72px;
-	margin-top: 96px;
-}
-
-.work-examples {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 120px;
-	padding-bottom: 32px;
-	margin: -10px;
-}
-
-.work-img {
-	margin: 10px;
-	border: 1px solid #E7E9FC;
-}
-
-
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items:center;
-	height: 72px;
-		
-}
-
-.container.header-text {
+.container.list {
 	display: flex;
 
 }
 
-.header-textlist {
-	display: flex;
-	padding-bottom: 120px;
+.goust {
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.logo-f {
-	font-family: 'Raleway';
-		font-weight: 800;
-		font-size: 18px;
-		line-height: 1.33;
-		color: var(--light);
-		text-decoration: none;
-}
-
-.logo-web {
-	width: 44px;
-	height: 24px;
-	font-family: 'Raleway';
-	font-size: 18px; 
-	line-height: 1.33;
-	color: var(--primary-brand);
-}
-
-.page-header:hover,
-.page-header:focus {
-	color: var(--primary-brand);
-}
-
-
-.page-header {
-	color: var(--dark); 
-	font-weight: 500;
-	font-size: 16px;
-	
-	
-	text-decoration: none;
-	
-	}
-.links list:not(:last-child) {
-			margin-right: 40px;
-		}
-	
-
-.flax-cont {
-	display: flex;
-	
-	}
-
-
+/* =====================================navigation=========================== */
 .contact:focus,
 .contact:hover {
 	color: var(--primary-brand);
 }
 
-.contact, 
-.contact{
+.contact,
+.contact {
 	color: var(--dark);
 	font-size: 16px;
 	line-height: 1.5;
@@ -233,92 +59,34 @@
 	display: flex;
 }
 
-.button:hover,
-.button:focus {
-	color: var(--primary-brand);
-	background-color: var(--background-btn);
-	color: var(--standatr-white);
-}
-
-.button {
-	color: var(--dark);
-	background-color: var(--light);
-	cursor: pointer;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	border-radius: 4px;
-	padding: 12px 24px;
-	border: none;
-}
-
-
-.advantages {
-	margin-top: 0;
-	margin-bottom: 120px;
-	/* display: flex;
-	align-items: stretch;
-	 */
-	 
-
-}
-
-.advantages-text {
-	display: flex;
-}
-
-img {
-	margin: 0;
-}
 
 
 
-.examples-all {
-	list-style: none;
-}
 
-.examples-img {
+/* --------------------------------header------------------- */
+.logo {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
 	color: var(--dark);
 	text-decoration: none;
-	background: var(--standatr-white);
-	padding-bottom: 32px;
+	margin-right: 76px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
-.examples-h2 {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-top: 32px;
-	padding-left: 16px;
-	}
 
-/* !!!!!!!!!!!!!Тоже обратить внимание на маржины и падинги!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.examples-p {
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-bottom: 32px;
-	padding-left: 16px;
-	
-	}
-	
-.logo-footer {
+.hero-background {
 	background-color: var(--dark);
-	color: var(--light);
-	text-decoration: none;
-	}
+	color: var(--standatr-white);
+	margin: auto;
+	margin-bottom: 120px;
+	text-align: center;
+	padding-bottom: 188px;
+	width: 1440px;
 
-.footer-p {
-	color: var(--accent);
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+	
 }
 
 .hero {
@@ -332,100 +100,184 @@ img {
 
 }
 
-.button-hero:hover,
-.button-hero:focus {
-	color: var(--primary-brand);
-	background-color: var(--background-btn);
-	color: var(--standatr-white);
-}
-
 .button-order:hover,
 .button-order:focus {
 	background-color: var(--background-btn);
 }
-.button-order {	
+
+.button-order {
 	color: var(--standatr-white);
 	background-color: var(--primary-brand);
 	cursor: pointer;
 	padding: 16px 32px;
 	border: none;
 	border-radius: 4px;
-	margin-bottom: 188px;
-		
+	/* margin-bottom: 188px; */
+
 }
 
-
-
-.benefits-h3{
+.benefits-h3 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-top: 0;
+	margin-bottom: 8px;
 }
 
-.benefits-p {
+.address-li {
+	margin-right: 24px;
+}
+
+.address-li:last-child {
+	margin-right: 0;
+}
+
+.header-li {
+	margin-right: 24px;
+}
+
+.header-li:last-child {
+	margin-right: 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: var(--accent);
+	
+}
+
+.header-address {
+	display: flex;
+	align-items: center;
+}
+
+.address {
+	margin-left: auto;
+}
+
+.navigation-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* height: 72px; */
+}
+
+.header-ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container.header-text {
+	display: flex;
+
+}
+
+.page-header {
+	color: var(--dark);
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.page-header:hover,
+.page-header:focus {
+	color: var(--primary-brand);
+}
+
+.header-text {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 72px;
+	padding-top: 120px;
+}
+
+
+/* ----------------------Strategy--------------------------- */
+
+
+.advantages {
+	margin-top: 0;
+	/* margin-bottom: 120px; */
+	/* display: flex;
+	align-items: stretch;
+	 */
+}
+
+.advantages-text {
+	display: flex;
+}
+
+.advantages-li {
+	margin-right: 24px;
+}
+
+.advantages-li:last-child {
+	margin-right: 0;
+}
+
+.container-r {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1158px;
+	/* outline: 1px solid red; */
+	padding-left: 15px;
+	padding-right: 15px;
+	/* padding-bottom: 120px; */
+}
+
+/* -----------------------------What Are We Doing--------------- */
+
+
+.img-doing {
+		padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 120px;
+}
+
+.doing-li {
+	margin-right: 24px;
+}
+
+.doing-li:last-child {
+	margin-right: 24px;
+}
+
+
+
+/* ------------------------------------Our Team---------------------------------- */
+
+.header-textlist {
+	display: flex;
+	padding-bottom: 120px;
+	
+}
+
+.card-p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: #434455;
+	padding-bottom: 32px;
+	margin-top: 8px;
 }
-
-
-.goust:not(:focus):not(:active) {
-		position: absolute;
-
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		border: 0;
-		padding: 0;
-
-		white-space: nowrap;
-
-		clip-path: inset(100%);
-		clip: rect(0 0 0 0);
-		overflow: hidden;
-	}
-
-
-
-
-.header-text {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-margin-top: 0;
-margin-bottom: 72px;
-padding-top: 120px;
-}
-
 
 .img-pipl {
 	background-color: var(--light);
 	text-align: center;
-}
-
-.team {
-	font-weight: 700;
-		font-size: 36px;
-		line-height: 1.11;
-		align-items: center;
-		letter-spacing: 0.02em;
-		text-transform: capitalize;
-		margin-top: 0;
-		margin-bottom: 72px;
-	}
-
-.card {
+	width: 1440px;
+	margin: auto;
 	
-	
-		background: #FFFFFF;
-		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-		border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -435,30 +287,158 @@ padding-top: 120px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	padding-top: 32px;
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1158px;
+	/* outline: 1px solid red; */
+	padding-left: 15px;
+	padding-right: 15px;
+	/* padding-bottom: 120px; */
+}
+
+.card {
+		background: #FFFFFF;
+		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+		border-radius: 0px 0px 4px 4px;
+		margin-right: 24px;
+}
+
+.card:last-child {
+	margin-right: 24px;
+}
+
+
+
+
+/* ----------------------------Portfolio-------------------------------------- */
+
+.btn-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 72px;
+	/* margin-top: 96px; */
+}
+
+.work-examples {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 32px;
+	margin: -10px;
+}
+
+
+
+.work-li {
+	display: flex;
+	box-sizing: border-box;
+	width: 360px;
+	height: 420px;
+	background: #FFFFFF;
+	margin: 10px;
+	
+}
+
+.button-nav {
+		background: #F4F4FD;
+		cursor: pointer;
+		border: 1px solid #E7E9FC;
+		border-radius: 4px;
+		flex: none;
+		order: 2;
+		flex-grow: 0;
+		padding: 12px 24px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: var(--primary-brand);
+}
+
+.button-nav:hover,
+.button-nav:focus {
+	
+	background-color: var(--background-btn);
+	color: var(--standatr-white);
+}
+
+.examples-img {
+	color: var(--dark);
+	text-decoration: none;
+	background: var(--standatr-white);
+	padding-bottom: 32px;
+}
+
+.examples-box {
+border: 1px solid var(--accent);
+border-top: 0;
+
+	
+
+}
+
+.examples-h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 32px;
+	padding-left: 16px;
+	margin-bottom: 8px;
+	color: var(--text)
+	
 	}
 
-.card-p {
-	font-weight: 400;
+.examples-p {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	margin-bottom: 0;
+	margin-top: 0;
 	padding-bottom: 32px;
-	padding-top: 8px;
-}
+	padding-left: 16px;
+	color: var(--text)
+	}
+	
 
+/* -----------------------Footer------------------------------------- */
+.footer-p {
+	color: var(--accent);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	margin-top: 16px;
+}
+.logo-f {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--light);
+	text-decoration: none;
+	
+}
+.logo-web {
+	width: 44px;
+	height: 24px;
+	font-family: 'Raleway';
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--primary-brand);
+}
 .footer {
 	background-color: var(--dark);
 	width: 1440px;
-		height: 310px;
+	height: 310px;
+	margin: auto;
 }
-
-
-
 .footer-end {
 	width: 264px;
 	display: inline-block;
 	margin-top: 100px;	
 	margin-left: 156px;
-	/* !!!!!!!!!Я не знаю как по другому выровнять правильно текст в футере!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
