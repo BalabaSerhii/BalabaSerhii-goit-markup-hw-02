@@ -15,8 +15,7 @@
 .list {
 	list-style: none;
 	text-decoration: none;
-	margin-bottom: 0;
-	margin-top: 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -35,10 +34,38 @@
 
 }
 
-.goust {
-	visibility: hidden;
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+ul{
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 /* =====================================navigation=========================== */
@@ -125,8 +152,15 @@
 	margin-bottom: 8px;
 }
 
+.benefits-p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--text);
+}
+
 .address-li {
-	margin-right: 24px;
+	margin-right: 40px;
 }
 
 .address-li:last-child {
@@ -134,7 +168,7 @@
 }
 
 .header-li {
-	margin-right: 24px;
+	margin-right: 40px;
 }
 
 .header-li:last-child {
@@ -219,6 +253,7 @@
 
 .advantages-li {
 	margin-right: 24px;
+	width: 264px;
 }
 
 .advantages-li:last-child {
@@ -249,7 +284,7 @@
 }
 
 .doing-li:last-child {
-	margin-right: 24px;
+	margin-right: 0;
 }
 
 
@@ -275,7 +310,7 @@
 .img-pipl {
 	background-color: var(--light);
 	text-align: center;
-	width: 1440px;
+	/* width: 1440px; */
 	margin: auto;
 	
 }
@@ -298,20 +333,29 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	/* padding-bottom: 120px; */
+
 }
 
 .card {
-		background: #FFFFFF;
-		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-		border-radius: 0px 0px 4px 4px;
-		margin-right: 24px;
-}
-
-.card:last-child {
+	display: block;	
+	background: #FFFFFF;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 	margin-right: 24px;
 }
 
+.card-img {
+	display: block;
+}
 
+.card:last-child {
+	margin-right: 0px;
+}
+
+.main-oll {
+	margin-top: 96px;
+	margin-bottom: 120px;
+}
 
 
 /* ----------------------------Portfolio-------------------------------------- */
@@ -337,7 +381,7 @@
 	 display: flex; 
 	 box-sizing: border-box; 
 	 width: 360px;
-	height: 420px;
+	/* height: 420px; */
 	background: #FFFFFF;
 	margin-right: 24px;
 	margin-bottom: 48px;
@@ -366,6 +410,14 @@
 		font-size: 16px;
 		line-height: 24px;
 		color: var(--primary-brand);
+		
+}
+
+.btn-li {
+margin-right: 24px;
+}
+.btn-li:last-child {
+	margin-right: 0;
 }
 
 .button-nav:hover,
@@ -379,7 +431,7 @@
 	color: var(--dark);
 	text-decoration: none;
 	background: var(--standatr-white);
-	margin-bottom: 32px;
+	/* margin-bottom: 32px; */
 }
 
 .examples-box {
@@ -443,13 +495,12 @@ border-top: 0;
 }
 .footer {
 	background-color: var(--dark);
-	width: 1440px;
-	height: 310px;
+	/* width: 1440px;
+	height: 310px; */
 	margin: auto;
+	padding: 100px;
 }
 .footer-end {
 	width: 264px;
-	display: inline-block;
-	margin-top: 120px;	
-	margin-left: 156px;
+
 }
